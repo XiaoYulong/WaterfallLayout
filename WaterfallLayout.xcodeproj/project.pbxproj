@@ -12,6 +12,9 @@
 		DEDDFF41237E890B00542B07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDFF40237E890B00542B07 /* ViewController.swift */; };
 		DEDDFF46237E890E00542B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDDFF45237E890E00542B07 /* Assets.xcassets */; };
 		DEDDFF49237E890E00542B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDDFF47237E890E00542B07 /* LaunchScreen.storyboard */; };
+		DEDDFF51237E8C3D00542B07 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDFF50237E8C3D00542B07 /* WaterfallLayout.swift */; };
+		DEDDFF53237E985700542B07 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDFF52237E985700542B07 /* DataSource.swift */; };
+		DEDDFF55237E99FC00542B07 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDFF54237E99FC00542B07 /* LabelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DEDDFF45237E890E00542B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEDDFF48237E890E00542B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDDFF4A237E890E00542B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDDFF50237E8C3D00542B07 /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		DEDDFF52237E985700542B07 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		DEDDFF54237E99FC00542B07 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				DEDDFF45237E890E00542B07 /* Assets.xcassets */,
 				DEDDFF47237E890E00542B07 /* LaunchScreen.storyboard */,
 				DEDDFF4A237E890E00542B07 /* Info.plist */,
+				DEDDFF50237E8C3D00542B07 /* WaterfallLayout.swift */,
+				DEDDFF52237E985700542B07 /* DataSource.swift */,
+				DEDDFF54237E99FC00542B07 /* LabelCell.swift */,
 			);
 			path = WaterfallLayout;
 			sourceTree = "<group>";
@@ -134,8 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDDFF51237E8C3D00542B07 /* WaterfallLayout.swift in Sources */,
 				DEDDFF41237E890B00542B07 /* ViewController.swift in Sources */,
 				DEDDFF3D237E890B00542B07 /* AppDelegate.swift in Sources */,
+				DEDDFF53237E985700542B07 /* DataSource.swift in Sources */,
+				DEDDFF55237E99FC00542B07 /* LabelCell.swift in Sources */,
 				DEDDFF3F237E890B00542B07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
