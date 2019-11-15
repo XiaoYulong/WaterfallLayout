@@ -19,7 +19,7 @@ class LabelCell: UICollectionViewCell {
         label.font = .systemFont(ofSize: 24)
         
         label.translatesAutoresizingMaskIntoConstraints = false
-        
+        label.numberOfLines = 0
         NSLayoutConstraint.activate([
             label.topAnchor.constraint(equalTo: contentView.topAnchor),
             label.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),

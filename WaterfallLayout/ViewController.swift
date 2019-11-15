@@ -13,12 +13,14 @@ class ViewController: UIViewController {
     private var contents = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        prepareData()
         let waterfallLayout = WaterfallLayout()
         waterfallLayout.delegate = self
         let collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: waterfallLayout)
         view.addSubview(collectionView)
         collectionView.dataSource = self
         collectionView.delegate = self
+        collectionView.backgroundColor = .white
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: view.topAnchor),
